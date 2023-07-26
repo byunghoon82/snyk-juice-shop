@@ -1,0 +1,19 @@
+custom_rules:
+  - id: 'test_Custom_rule_1'
+    description: ''
+    severity: 'low'
+    cwe: []
+    fix_analysis: ''
+    rule_code: 'StringLiteral<~".*password.*">'
+    languages:
+      - 'apex'
+      - 'c'
+      - 'cpp'
+      - 'csharp'
+      - 'go'
+      - 'java'
+      - 'javascript'
+      - 'php'
+      - 'python'
+      - 'ruby'
+      - 'typescript'
